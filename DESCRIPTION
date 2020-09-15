@@ -1,0 +1,20 @@
+Package: lcmsData
+Type: Package
+Title: LC-MS data generated in high-throughput metabolic profling experiments.
+Version: 0.1.0
+Authors@R: 
+    person(given = "Torben",
+           family = "Kimhofer",
+           role = c("aut", "cre"),
+           email = "torben.kimhofer@murdoch.edu.au",
+           comment = c(ORCID = "0000-0001-7158-9930"))
+Description: Data is used to test different pre=processing methods, such as peak picking with MSbrowser.
+Depends: R (>= 3.5.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: knitr, msbrowser, xcms
+RoxygenNote: 7.1.1
+StagedInstall: yes
+VignetteBuilder: knitr
+biocViews: MassSpectrometryData

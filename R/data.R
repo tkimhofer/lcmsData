@@ -14,7 +14,7 @@
 #'
 "lcms"
 
-#' @title raw_xcms data object
+#' @title hilicPosUrine data object
 #' @format xcms object of a urine sample acquired with HILIC ESI+ Q-TOF MS:
 #' @description Data were read-in using the function `xcmsRaw('/inst/extdata/Urine_HILIC_ESIpos_msLevel1.mzML', profstep = 0, includeMSn = FALSE, mslevel = 1)`
 "raw_xcms"

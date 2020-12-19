@@ -3,7 +3,7 @@
 \docType{data}
 \name{lcms}
 \alias{lcms}
-\title{UPLC-MS data for metabolic profiling}
+\title{lcms data object}
 \format{
 A data frame with 11.9 million rows and 4 variables:
 \describe{
@@ -17,6 +17,9 @@ A data frame with 11.9 million rows and 4 variables:
 lcms
 }
 \description{
+UPLC-MS data for metabolic profiling
+}
+\details{
 A dataset containing raw UPLC-MS level 1 data.
 Data were acquired using hydrophilic interaction liquid chromatography (HILIC) coupled to electrospray (ESI) quadrupole - time of flight (Q-TOF) mass spectrometer equipped with a multi-channel plate detector. ESI was performed in positive ionisation mode.
 }

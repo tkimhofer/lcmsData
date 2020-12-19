@@ -8,7 +8,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "torben.kimhofer@murdoch.edu.au",
            comment = c(ORCID = "0000-0001-7158-9930"))
-Description: Data is used to test different pre=processing methods, such as peak picking with MSbrowser.
+Description: Human urine experiment data acquired with HILIC-QTOF-MS. Data are used to test different pre-processing pipelines.
 Depends: R (>= 3.5.0)
 License: MIT + file LICENSE
 Encoding: UTF-8

@@ -5,7 +5,7 @@
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/tkimhofer/lcmsData?branch=master&svg=true)](https://ci.appveyor.com/project/tkimhofer/lcmsData)
 <!-- badges: end -->
 
-This packaage contains untargeted LC-MS data for testing feature detection algorithms. Provided is HILIC-QTOF-MS experiment data acqruied from a human urine sample of a healthy volunteer.
+This package contains untargeted LC-MS data for testing feature detection algorithms. Provided is HILIC-QTOF-MS experiment data acqruied from a human urine sample of a healthy volunteer.
 
 ## Installation
 Use the following R code to install the package:

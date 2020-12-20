@@ -7,9 +7,6 @@ init:
         Invoke-WebRequest http://raw.github.com/krlmlr/r-appveyor/master/scripts/appveyor-tool.ps1 -OutFile "..\appveyor-tool.ps1"
         Import-Module '..\appveyor-tool.ps1'
 
-install:
-  ps: Bootstrap
-
 cache:
   - C:\RLibrary
 
@@ -48,6 +45,7 @@ environment:
       BIOC_USE_DEVEL: FALSE 
 # Adapt as necessary starting from here
 install:
+  ps: Bootstrap
   # Installs packages biocon
   - ./travis-tool.sh install_bioc GenomeInfoDbData
   - travis-tool.sh github_package tkimhofer/msbrowser

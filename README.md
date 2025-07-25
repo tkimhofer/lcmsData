@@ -15,7 +15,7 @@
 
 ## Installation
 
-You can install the development version of the package from GitHub using `remotes`:
+You can install the package from GitHub using `remotes`:
 
 ```r
 install.packages("remotes")

@@ -66,6 +66,5 @@ jobs:
           _R_CHECK_FORCE_SUGGESTS_: false
           R_LIBS_USER: ${{ github.workspace }}/R/library
         run: |
-          rcmdcheck::rcmdcheck(args = c("--no-manual", "--run-donttest", "--no-build-vignettes"), error_on = "error")
-          devtools::test()
-        shell: Rscript {0}
+          Rscript -e '.libPaths(Sys.getenv("R_LIBS_USER")); rcmdcheck::rcmdcheck(args = c("--no-manual", "--run-donttest", "--no-build-vignettes"), error_on = "error"); devtools::test()'
+        shell: bash

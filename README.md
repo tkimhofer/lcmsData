@@ -4,9 +4,7 @@
 [![CI: package build & test](https://github.com/tkimhofer/lcmsData/actions/workflows/r.yml/badge.svg)](https://github.com/tkimhofer/lcmsData/actions/workflows/r.yml)
 <!-- badges: end -->
 
-## Continuous Integration
-
-The CI workflow badge above verifies that the package builds and installs without issues and passes tests on R versions 4.1.1, 4.2, and 4.3 across Linux, Windows, and macOS.
+The continuous integration (CI) workflow badge above verifies that the package builds and installs without issues and passes tests on R versions 4.1.1, 4.2, and 4.3 across Linux, Windows, and macOS.
 
 ---
 

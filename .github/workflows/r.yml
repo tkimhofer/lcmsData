@@ -17,15 +17,30 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
       - name: Set up R ${{ matrix.r-version }}
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: ${{ matrix.r-version }}
-      - name: Install dependencies
+
+      - name: Install dependencies from CRAN (including remotes, rcmdcheck, testthat, knitr)
         run: |
-          install.packages(c("remotes", "rcmdcheck", "testthat"))
+          install.packages(c("remotes", "rcmdcheck", "testthat", "knitr"))
           remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
+
+      - name: Install Bioconductor packages
+        run: |
+          install.packages("BiocManager")
+          BiocManager::install(c("xcms"))
+        shell: Rscript {0}
+
+      - name: Install GitHub suggested packages
+        run: |
+          install.packages("remotes")
+          remotes::install_github("OWNER/msbrowser")  # Replace OWNER/msbrowser with actual repo
+        shell: Rscript {0}
+
       - name: Run tests
         run: |
           rcmdcheck::rcmdcheck(args = c("--run-donttest"), error_on = "error")

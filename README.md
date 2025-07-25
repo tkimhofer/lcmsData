@@ -1,8 +1,14 @@
 # lcmsData
 
 <!-- badges: start -->
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/tkimhofer/lcmsData?branch=master&svg=true)](https://ci.appveyor.com/project/tkimhofer/lcmsData)
+[![CI: package build & test](https://github.com/tkimhofer/lcmsData/actions/workflows/r.yml/badge.svg)](https://github.com/tkimhofer/lcmsData/actions/workflows/r.yml)
 <!-- badges: end -->
+
+## Continuous Integration
+
+The CI workflow badge above verifies that the package builds and installs without issues and passes tests on R versions 4.1.1, 4.2, and 4.3 across Linux, Windows, and macOS.
+
+---
 
 `lcmsData` is a data-only R package providing LC‑MS level 1 reference data. The data represents a human urine sample analyzed within a larger analytical run using hydrophilic interaction chromatography (HILIC) for pre-separation, followed by electrospray ionization (ESI) in positive mode and detection with a quadrupole time-of-flight (Q‑TOF) mass spectrometer. This experimental data set is designed for developing and benchmarking feature-detection and pre-processing algorithms in high-throughput metabolic profiling.
 

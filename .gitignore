@@ -6,9 +6,6 @@
 .RData
 .Ruserdata
 
-# Example files
-.Rproj.user/
-
 # RStudio files
 .Rproj.user/
 
@@ -16,7 +13,6 @@
 .DS_Store
 
 # R package files
-.Rbuildignore
 .Rproj.user/
 .Rhistory
 .RData

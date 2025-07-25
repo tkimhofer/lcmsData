@@ -36,9 +36,11 @@ jobs:
         shell: Rscript {0}
 
       - name: Install suggest from GH
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
         run: |
           install.packages("remotes")
-          remotes::install_github("tkimhofer/msbrowser")  # Replace OWNER/msbrowser with actual repo
+          remotes::install_github("tkimhofer/msbrowser")
         shell: Rscript {0}
 
       - name: Run tests

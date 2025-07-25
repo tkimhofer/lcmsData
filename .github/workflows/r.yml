@@ -37,7 +37,7 @@ jobs:
 
       - name: Install suggest from GH
         env:
-          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+          GITHUB_PAT: ${{ secrets.GH_PAT }}
         run: |
           install.packages("remotes")
           remotes::install_github("tkimhofer/msbrowser")

@@ -45,6 +45,7 @@ jobs:
 
       - name: Run tests
         run: |
-          rcmdcheck::rcmdcheck(args = c("--run-donttest"), error_on = "error")
+          rcmdcheck::rcmdcheck(args = c("--no-manual", "--run-donttest"), error_on = "error")
           devtools::test()
         shell: Rscript {0}
+

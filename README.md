@@ -38,7 +38,4 @@ hilicPosUrine
 `lcmsdata` can be used to test feature detection, retention‑time correction and other pre‑processing steps. The `hilicPosUrine` object is convenient for workflows based on the xcms Bioconductor package.
 
 ## License
-This package is distributed under the MIT License. 
-
-Copyright © 2019 Torben Kimhofer.
-
+This package is distributed under the MIT License.

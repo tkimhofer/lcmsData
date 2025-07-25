@@ -3,7 +3,7 @@
 ^\.RData$
 ^\.git$
 ^\.gitignore$
-^\.github$
+^\.github(/|$)
 ^\.vscode$
 ^\.DS_Store$
 ^\.Rprofile$

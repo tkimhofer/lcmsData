@@ -15,7 +15,6 @@ Depends: R (>= 3.5.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-LazyDataCompression: yes
 Suggests: knitr, msbrowser, xcms
 RoxygenNote: 7.1.1
 StagedInstall: yes

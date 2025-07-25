@@ -23,22 +23,22 @@ jobs:
         with:
           r-version: ${{ matrix.r-version }}
 
-      - name: Install dependencies from CRAN (including remotes, rcmdcheck, testthat, knitr)
+      - name: Install CRAN dependencies
         run: |
           install.packages(c("remotes", "rcmdcheck", "testthat", "knitr"))
           remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
 
-      - name: Install Bioconductor packages
+      - name: Install suggest from Bioconductor
         run: |
           install.packages("BiocManager")
           BiocManager::install(c("xcms"))
         shell: Rscript {0}
 
-      - name: Install GitHub suggested packages
+      - name: Install suggest from GH
         run: |
           install.packages("remotes")
-          remotes::install_github("OWNER/msbrowser")  # Replace OWNER/msbrowser with actual repo
+          remotes::install_github("tkimhofer/msbrowser")  # Replace OWNER/msbrowser with actual repo
         shell: Rscript {0}
 
       - name: Run tests

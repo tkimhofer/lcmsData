@@ -4,7 +4,7 @@
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/tkimhofer/lcmsData?branch=master&svg=true)](https://ci.appveyor.com/project/tkimhofer/lcmsData)
 <!-- badges: end -->
 
-`lcmsData` is a data‑only R package that ships untargeted LC‑MS reference data.  The package provides high‑resolution hydrophilic interaction chromatography positive ion mass‑spectrometry (HILIC‑QTOF‑MS +ve) measurements from a human urine sample:contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}.  These data sets are used for developing and benchmarking feature‑detection and pre‑processing algorithms in high‑throughput metabolic profiling:contentReference[oaicite:2]{index=2}.
+`lcmsData` is a data‑only R package that ships ESI(+)-HILIC‑MS reference data (MS level 1).  The package provides high‑resolution hydrophilic interaction chromatography positive ion mass‑spectrometry (HILIC‑QTOF‑MS +ve) measurements from a human urine sample:contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}.  These data sets are used for developing and benchmarking feature‑detection and pre‑processing algorithms in high‑throughput metabolic profiling:contentReference[oaicite:2]{index=2}.
 
 ## Data objects
 

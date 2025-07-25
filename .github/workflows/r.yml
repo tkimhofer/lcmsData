@@ -1,3 +1,4 @@
+
 name: R-CMD-check
 
 on:
@@ -43,7 +44,12 @@ jobs:
           remotes::install_github("tkimhofer/msbrowser")
         shell: Rscript {0}
 
+      - name: List installed packages
+        run: Rscript -e 'installed.packages()[, "Package"]'
+
       - name: Run tests
+        env:
+          _R_CHECK_FORCE_SUGGESTS_: false
         run: |
           rcmdcheck::rcmdcheck(args = c("--no-manual", "--run-donttest"), error_on = "error")
           devtools::test()

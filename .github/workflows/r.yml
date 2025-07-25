@@ -10,8 +10,8 @@ jobs:
   R-CMD-check:
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
-        fail-fast: false
         os: [ubuntu-latest, windows-latest, macos-latest]
         r-version: ['4.3', '4.2', '4.1.1']
 

@@ -4,10 +4,7 @@
 [![CI: package build & test](https://github.com/tkimhofer/lcmsData/actions/workflows/r.yml/badge.svg)](https://github.com/tkimhofer/lcmsData/actions/workflows/r.yml)
 <!-- badges: end -->
 
-> <details>
-  <summary>The badge above represents a continuous integration (CI) workflow that verifies the R data package builds and installs without issues on R versions 4.1.1, 4.2, and 4.3 across Linux, Windows, and macOS systems.</summary>summary>
-    
-  </details>
+> The badge above represents a continuous integration (CI) workflow that verifies the R data package builds and installs without issues on R versions 4.1.1, 4.2, and 4.3 across Linux, Windows, and macOS systems.
 
 ---
 

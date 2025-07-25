@@ -6,7 +6,7 @@ Authors@R:
     person(given = "Torben",
            family = "Kimhofer",
            role = c("aut", "cre"),
-           email = "torben.kimhofer@murdoch.edu.au",
+           email = "tkimhofer@gmail.com",
            comment = c(ORCID = "0000-0001-7158-9930"))
 Description: Human urine experiment data acquired with HILIC-QTOF-MS. Data are used to test different pre-processing pipelines.
 Depends: R (>= 3.5.0)

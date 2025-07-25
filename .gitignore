@@ -1,0 +1,69 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data
+.RData
+.Ruserdata
+
+# Example files
+.Rproj.user/
+
+# RStudio files
+.Rproj.user/
+
+# Mac system files
+.DS_Store
+
+# R package files
+.Rbuildignore
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Output files
+*.RData
+*.rda
+*.rds
+
+# Generated vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# Compiled code
+src/*.o
+src/*.so
+src/*.dll
+src/*.exe
+
+# Logs and temp files
+*.log
+*.tmp
+*.out
+
+# Renviron and Rprofile
+.Renviron
+.Rprofile
+
+# Packrat package management
+packrat/lib-R/
+packrat/packrat.lock
+packrat/src/
+
+# R environment files
+.Renviron
+.Rprofile
+
+# RStudio project user-specific files
+.Rproj.user/
+
+# Coverage reports
+coverage/
+.Rcoverage
+
+# Shiny application logs
+shiny_logs/
+
+# Misc
+*.tar.gz
